@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Scratch Phase</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/Mexico1.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<img class="image avatar" src="images/fotoProfiles.jpg" alt="" />
+					<h1><strong>Giovanni Lopez</strong> </h1>
+					<p>	Machine learning enthusiast | Software Developer  Star Wars Lover</p>
+				</div>
+                <a href="scratch.html">Start</a>
+                <a href="week5.html">Week 1</a>
+                <a href="week6.html">Week 2</a>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Nearsoft Academy</h2>
+						</header>
+						<h3>Week 7 <br/> What i've learned</h3>
+						
+					</section>
+
+					<section>
+						<p align="justify"> <strong>
+                            This is the third week of the building something from scratch phase, and it’s been a different experience, I got sick since Thursday, 
+                            horribly so i was bedridden since then up until today. But my team had my back and they understood my situation, I have a huge appreciation 
+                            for them.
+                            <br><br>
+                            Still there was some great moments this week, from the backend. Our team did some incredible progress on one day, we all added some 
+                            value, I was learning more about how the system works in it’s entirety when i was working on some testing for the app. 
+                            <br><br>
+                            With some of my teammembers we started looking more into some QR modules for our project and there were some greate candidates, We were 
+                            thinking about splitting the QR generator and scanner so we started looking for the best module for each activity in the end we landed 
+                            on them being qrcode module for the generator and react-qr-scanner for the scanner, which is really a effective scanner without many hiccups 
+                            to speak of at all and recognizes the qr code very quickly. Our focus and worries were more on this side of the api since any module would be 
+                            enough for generating a QR code, but we needed a fast qr scanner since this determines how fast the patients will be in and out of the system.
+                            <br><br>
+                            For my own part on the backend the days I could work, I learned more about how nodejs works for calling a function and creating new objects when 
+                            needed, I was tasked with creating a new schedule each time a person selected a day that had no schedule assigned so I basically added all known 
+                            dentists to that day as available with all hours free I also worked some oversights we had as a team when it came to appointments, in the case where 
+                            all dentists had no appointments for that day how do we check for last appointments? (Context, this is a function which check the availability of a 
+                            dentist to determine which one is most free for the new appointment) what I did was basically add a new condition where if no dentist had appointments 
+                            then simply grab one dentist at random.
+                            <br><br>
+                            Oh, there was also this embarrassing error we had where we thought some variables we were receiving were as numbers but in reality they were strings which 
+                            causes issues in specific cases where our while loop would get stuck comparing to string which start very similarly.
+                            <br><br>
+                            Another thing I did this week given the fact that i’ve been bedridden for a few days was watch some of the viewing material for this month, one of the videos 
+                            I saw was called “The optimism bias” by Tali Sharot, it’s a TEDTalk which focuses on the idea of have a optimistic mentality with you expectations since this 
+                            will breed more success, which is inherent to this type of mindset, lowering you expectations and having a pessimistic outlook at a situation will only provide 
+                            you with the expected outcome, and while true this will hurt less, it’s and unhealthy way to look at life, I felt this resonated with me since I use to have this 
+                            sort of mindset but found it to be to depressive for my liking and my own attitude towards life, the idea of us thinking as penguins who want to fly but should 
+                            prepare for the case in which you can’t is the most incredible analogy i’ve heard, don’t be the sad penguin who expects to fail, but also, don’t the overoptimistic 
+                            penguin who just jumps off the cliff. 
+                            <br><br>
+                            Tali Sharot makes the most sense out of anybody I've ever heard speaking on the topic of happiness/positivity/optimism. I find her perspective to be well-balanced 
+                            and well-informed. I want to show this talk to all the people I know who remind me of the penguins who just jumped off the cliff without the parachute.
+                            <br><br>
+                            A prominent problem of this week was my mentality and frustration of not being able to de enough for my team, this mentality affected me in a negative way because 
+                            I wanted to give more to my team but my health situation prevented me from being able to work, after a chat with staff I understood that I overthought everything, 
+                            and that not working to take care of myself may happen, it is not a bad thing. It’s something that happens to all of us, I should trust my teammates more and be able 
+                            to let them know in time that I won’t be able to work, luckily I have some great teammates and i truly appreciate them and I take to heart what the academy staff told me, 
+                            it may seem obvious but hearing how I was affecting my team with how I was dealing with this made me reflect on my mindset, I’ll try and be better so that in when I’m in 
+                            a larger team or with the same team I can be better!
+                        </strong>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/LuiGiovanni" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/giovanni-lopez-04a6551a6/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="mailto:giovanni.lopez3523@gmail.com" class="icon fa-envelope"><span class="label">Github</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
